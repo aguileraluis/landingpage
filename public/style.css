@@ -1,0 +1,86 @@
+body {
+    color: #333;
+    font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    -webkit-font-feature-settings: "kern", "liga", "pnum";
+            font-feature-settings: "kern", "liga", "pnum";
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+
+  button, input, textarea {
+    width: 20%; 
+    padding: 0.5rem;
+    border-radius: 16px;
+    border: none; 
+    outline: none;
+    box-shadow: 5px 5px 30px rgb(232, 184, 62);
+    text-align: center;
+  }
+
+  #msg {
+    visibility: hidden;
+  }
+
+  #reset {
+    visibility: hidden;
+  }
+
+  p {
+    margin: 0 0 0.75em; 
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    max-width:600px;
+    height: auto;
+  }
+
+  
+  body {
+    background-color: black;
+    color: rgb(102, 174, 219);
+    font-family: Helvetica Neue,Helvetica,Segoe UI,Arial,sans-serif;
+    text-align: center;
+  }
+  
+  .main {
+    height: 100vh;
+    margin-top: 12vh;
+  }
+
+  .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+
+  }
