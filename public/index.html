@@ -18,9 +18,9 @@
                     <p>Hey, it's Carter. <br>I help gay people prepare for the long-term relationship of their dreams!<br>Did you come by for the free copy of my book "Happy Gay Christian Hereafter?" <br>Enter your email below! <br> I'll immediately put an email into your inbox with the details. <br>You didn't get it? <br>Check your spam folder, please.
                         <br>
                         <br>
-                        <img style="text-align: center;" src="./book.png">
+                        <img style="text-align: center;" src="./librodos.png">
                         <br>
-                    <span style="color: white;"> Ahh so you want to get onto my calendar to speak?<br> No worries at all! Are you making a difficult decision about staying or leaving? <br> Could you actually pursue your dream relationship? <br><br> "I don't want to hurt the next person." <br> "I'm messed up." <br> "I need them to understand." <br> "I feel guilty." <br> "Wait, why do I feel guilty? It's their fault!" <br> "I'm not like I used to be." <br> "I want to share my heart again." <br><br>You're not alone. Many clients have gone before. <br> I'm kind. I'm gentle. I'm transparent. <br> I won't waste your time. <br>I'm gifted at seeing a person's issues that hold them back. <br>That's how I help.<br>See if you feel confident. Request a one-on-one call.<br> I'll being praying for you. <br></span>
+                    <span style="color: white;"> Ahh so you want to get onto my calendar to speak?<br> No worries at all! Are you making a difficult decision about staying or leaving? <br> Could you actually pursue your dream relationship? <br><br> "I don't want to hurt the next person." <br> "I'm messed up." <br> "I need them to understand." <br> "I feel guilty." <br> "Wait, why do I feel guilty? It's their fault!" <br> "I'm not like I used to be." <br> "I want to share my heart again." <br><br>You're not alone. Many clients have gone before. <br> I'm kind. I'm gentle. I'm transparent. <br> I won't waste your time. <br>I'm gifted at seeing a person's issues that hold them back. <br>That's how I help.<br>See if you feel confident. Request a one-on-one call.<br> I'll be praying for you. <br></span>
             </div> 
                 <span id="typed"></span>
                 <br>
@@ -43,7 +43,8 @@
                 <br>
                 <br>
                 <br>
-                <button id="reset" type="submit" onclick="return reset()">Return to Landing Page</button>
+                <button onclick="reset()" id="reset" type="submit" >Return to Landing Page</button>
+                
                 <br>
                 <form class="form" action="/" method="post">
                     <div class="form-row">
@@ -73,14 +74,14 @@
                     </div>
         
                     <br>
-                    <input type="submit" style="color: white; background-color: rgb(102, 174, 219); margin-bottom: 20vh" class="form-group" style = "text-align: center;" id="submit" name="submit" onclick="return alert()">
+                    <input onclick="alert()" type="submit" style="color: white; background-color: rgb(102, 174, 219); margin-bottom: 20vh" class="form-group" style = "text-align: center;" id="submit" name="submit">
+                    
                     </div>
                 </form>
                         </div>
                         <br>     
         </div>
-        
-        <!-- <script src="https://smtpjs.com/v3/smtp.jsp.js"></script> -->
+    
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
         <script src="typed.min.js"></script>
@@ -89,7 +90,7 @@
                 document.getElementById("msg").style.visibility="visible";
                 document.getElementById("reset").style.visibility="visible"; 
                 document.querySelector(".form").style.visibility="hidden";
-                return false;
+                // return false;
             }
 
             function reset() {
@@ -97,7 +98,7 @@
                 document.getElementById("msg").style.visibility="hidden";
                 document.getElementById("reset").style.visibility="hidden";
                 document.querySelector(".form").style.visibility="visible";
-                return false;
+                // return false;
             }
         </script>
         <script>
@@ -106,7 +107,7 @@
                     stringsElement: $('#typed-strings'),
                     typeSpeed: 2,
                     callback: function() {
-                        $(".logo").wrap("<a href='mailto:luis.aguileramail@gmail.com'></a>");
+                        $(".logo").wrap("<a href='mailto:carterholmes2@gmail.com'></a>");
                     },
                 });
             });
